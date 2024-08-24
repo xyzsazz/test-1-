@@ -1,0 +1,79 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-image: url('CSC_0097(1).png'); /* Apply the moon background */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    color: white; /* Ensures all text is visible on the dark background */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for the navbar */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 150px 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: add a semi-transparent overlay for readability */
+    color: white;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: white;
+}
+
+section p, section li {
+    color: white;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Similar styling to the navbar */
+    color: white;
+}
+
+/* Bootstrap Overrides */
+.bg-light {
+    background-color: rgba(0, 0, 0, 0.1) !important; /* Adjust the Bootstrap light background to be transparent */
+}
+
+/* Typed.js Styling */
+.typed-cursor {
+    color: white; /* Ensure cursor matches the text color */
+}
+
